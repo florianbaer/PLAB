@@ -1,5 +1,6 @@
-package com.baerdev.backofen;
+package ch.hslu.plab.sw01;
 
+import ch.hslu.plab.sw01.*;
 import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -11,8 +12,6 @@ import org.junit.Assert;
 
 public class BackofenSteps {
     Backofen backofen = null;
-
-
 
     @Given("^a instance of backofen$")
     public void a_instance_of_backofen() throws Throwable {
