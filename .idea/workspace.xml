@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d249164b-7bae-43de-a611-0e16b44754a5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/baerdev/backofen/Backofen.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/Backofen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/baerdev/backofen/Ebene.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/Ebene.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/baerdev/backofen/Heizelement.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/Heizelement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/baerdev/backofen/HeizelementLocation.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/HeizelementLocation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/baerdev/backofen/HeizelementTyp.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/HeizelementTyp.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/baerdev/backofen/Tuere.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/Tuere.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/baerdev/backofen/Uhr.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/Uhr.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/baerdev/backofen/BackofenSteps.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/com/baerdev/backofen/Backofen.feature" afterPath="$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01/Backofen.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,18 +23,51 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="864">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Backofen.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Backofen.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01/Backofen.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              <folding>
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
+                <element signature="e#1550#1551#0" expanded="true" />
+                <element signature="e#2303#2304#0" expanded="true" />
+                <element signature="e#2359#2360#0" expanded="true" />
+                <element signature="e#2586#2587#0" expanded="true" />
+                <element signature="e#2667#2668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemperatureTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +104,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/baerdev/backofen/BackofenSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java" />
       </list>
     </option>
   </component>
@@ -127,6 +155,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +198,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hslu" type="462c0819:PsiDirectoryNode" />
-              <item name="sw01" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
@@ -198,39 +239,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hslu" type="462c0819:PsiDirectoryNode" />
               <item name="plab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hslu" type="462c0819:PsiDirectoryNode" />
-              <item name="plab" type="462c0819:PsiDirectoryNode" />
-              <item name="sw01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sw01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,6 +514,7 @@
       <workItem from="1506335316636" duration="132000" />
       <workItem from="1506337096223" duration="3774000" />
       <workItem from="1506948166503" duration="206000" />
+      <workItem from="1507043919215" duration="115000" />
     </task>
     <servers />
   </component>
@@ -537,11 +551,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8120000" />
+    <option name="totallyTimeSpent" value="8235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="3712" height="2148" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -555,7 +568,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959569" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -583,6 +596,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01/Backofen.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -618,7 +647,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -628,6 +657,35 @@
         <state relative-caret-position="180">
           <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2586#2587#0" expanded="true" />
+            <element signature="e#2667#2668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
