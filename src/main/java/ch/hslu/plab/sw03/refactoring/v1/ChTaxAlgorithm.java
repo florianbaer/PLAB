@@ -1,10 +1,9 @@
 package ch.hslu.plab.sw03.refactoring.v1;
 
-public class DeTaxCalculator implements ITaxCalculator {
-
+public class ChTaxAlgorithm implements ITaxAlgorithm {
 
     @Override
     public double getTaxAlgorithm(double salary) {
-        return 50 + salary * 1.5;
+        return (salary - 10) / 15;
     }
 }

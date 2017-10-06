@@ -1,6 +1,6 @@
 package ch.hslu.plab.sw03.refactoring.v1;
 
-public class UsTaxCalculator implements ITaxCalculator {
+public class UsTaxAlgorithm implements ITaxAlgorithm {
 
 
     @Override

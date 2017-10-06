@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d249164b-7bae-43de-a611-0e16b44754a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuerBerechner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/IPerson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ChTaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/DeTaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/IPerson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculatorProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalcExecutor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/UsTaxCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/stream/StreamDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuernTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithmTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PLAB-MyCode.iml" afterPath="$PROJECT_DIR$/PLAB-FB.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxAlgorithm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxAlgorithm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxCalculator.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxAlgorithm.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,84 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsTaxCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/UsTaxCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChTaxCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DeTaxCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/DeTaxCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IPerson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/IPerson.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ITaxCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaxCalcExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsTaxCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,12 +44,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeTaxCalculator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/DeTaxCalculator.java">
+      <file leaf-file-name="SwitchSteuerBerechner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuerBerechner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwitchSteuernTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuernTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="73" lean-forward="true" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeTaxAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChTaxAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChTaxAlgorithmTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithmTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxCalcExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoAppIT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/DemoAppIT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PointTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,13 +196,17 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalcExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalculatorProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculatorProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v3/UsTaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/UsTaxCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/SwitchSteuernTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuernTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithmTests.java" />
       </list>
     </option>
   </component>
@@ -351,18 +347,6 @@
               <item name="plab" type="462c0819:PsiDirectoryNode" />
               <item name="sw03" type="462c0819:PsiDirectoryNode" />
               <item name="refactoring" type="462c0819:PsiDirectoryNode" />
-              <item name="v0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hslu" type="462c0819:PsiDirectoryNode" />
-              <item name="plab" type="462c0819:PsiDirectoryNode" />
-              <item name="sw03" type="462c0819:PsiDirectoryNode" />
-              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
               <item name="v1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -381,6 +365,17 @@
               <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
               <item name="PLAB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,6 +392,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hslu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
@@ -438,6 +442,41 @@
               <item name="sw03" type="462c0819:PsiDirectoryNode" />
               <item name="refactoring" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="v0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="schleifen" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -459,6 +498,7 @@
       <recent name="ch.hslu.plab.sw03.refactoring.v1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ch.hslu.plab.sw03.refactoring.v0" />
       <recent name="ch.hslu.plab.sw03.kontrollstrukturen" />
       <recent name="ch.hslu.plab.sw03" />
       <recent name="ch.hslu.plab.sw02" />
@@ -490,20 +530,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DemoTests.printBoxTest">
-    <configuration name="DemoTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ChTaxAlgorithmTests">
+    <configuration name="ChTaxAlgorithmTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch.hslu.plab.sw03.schleifen.*" />
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="PLAB-MyCode" />
+      <module name="PLAB-FB" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.schleifen" />
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.schleifen.DemoTests" />
-      <option name="METHOD_NAME" value="printBoxTest" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v1" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v1.ChTaxAlgorithmTests" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -516,94 +556,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DemoTests.TestCountFromZeroToTenDo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChTaxAlgorithmTests.SmallIncomeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ch.hslu.plab.sw03.schleifen.*" />
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="PLAB-MyCode" />
+      <module name="PLAB-FB" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.schleifen" />
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.schleifen.DemoTests" />
-      <option name="METHOD_NAME" value="TestCountFromZeroToTenDo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DemoTests.TestCountFromZeroToTenWhile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch.hslu.plab.sw03.schleifen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PLAB-MyCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.schleifen" />
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.schleifen.DemoTests" />
-      <option name="METHOD_NAME" value="TestCountFromZeroToTenWhile" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DemoTests.incrementToOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch.hslu.plab.sw03.schleifen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PLAB-MyCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.schleifen" />
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.schleifen.DemoTests" />
-      <option name="METHOD_NAME" value="incrementToOneTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DemoTests.printBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch.hslu.plab.sw03.schleifen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PLAB-MyCode" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.schleifen" />
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.schleifen.DemoTests" />
-      <option name="METHOD_NAME" value="printBoxTest" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v1" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v1.ChTaxAlgorithmTests" />
+      <option name="METHOD_NAME" value="SmallIncomeTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -638,6 +603,81 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="PLAB-MyCode" />
       <envs />
+    </configuration>
+    <configuration name="SwitchSteuernTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PLAB-FB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v0" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v0.SwitchSteuernTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SwitchSteuernTests.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PLAB-FB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v0" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v0.SwitchSteuernTests" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TemperatureTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.plab.sw02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PLAB-FB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw02" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw02.TemperatureTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -734,19 +774,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Backofen" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DemoTests.TestCountFromZeroToTenDo" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DemoTests.TestCountFromZeroToTenWhile" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DemoTests.incrementToOneTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DemoTests.printBoxTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DemoTests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SwitchSteuernTests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SwitchSteuernTests.Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TemperatureTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ChTaxAlgorithmTests" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ChTaxAlgorithmTests.SmallIncomeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DemoTests.printBoxTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DemoTests" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DemoTests.incrementToOneTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DemoTests.TestCountFromZeroToTenWhile" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DemoTests.TestCountFromZeroToTenDo" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChTaxAlgorithmTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ChTaxAlgorithmTests.SmallIncomeTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TemperatureTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SwitchSteuernTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SwitchSteuernTests.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -776,64 +816,64 @@
       <workItem from="1506948166503" duration="206000" />
       <workItem from="1507043919215" duration="115000" />
       <workItem from="1507131634268" duration="5538000" />
-      <workItem from="1507301643467" duration="7639000" />
+      <workItem from="1507301643467" duration="9310000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 07m 29s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="ChTaxAlgorithmTests - 2017.10.06 at 21h 36m 55s.xml">
+      <configuration name="ChTaxAlgorithmTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 07m 39s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="ChTaxAlgorithmTests - 2017.10.06 at 21h 37m 47s.xml">
+      <configuration name="ChTaxAlgorithmTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 07m 46s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="ChTaxAlgorithmTests - 2017.10.06 at 21h 38m 20s.xml">
+      <configuration name="ChTaxAlgorithmTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 08m 01s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="ChTaxAlgorithmTests - 2017.10.06 at 21h 38m 47s.xml">
+      <configuration name="ChTaxAlgorithmTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 08m 04s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="ChTaxAlgorithmTests - 2017.10.06 at 21h 41m 46s.xml">
+      <configuration name="ChTaxAlgorithmTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 08m 30s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="ChTaxAlgorithmTests_SmallIncomeTest - 2017.10.06 at 21h 37m 38s.xml">
+      <configuration name="ChTaxAlgorithmTests.SmallIncomeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 09m 22s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="SwitchSteuernTests - 2017.10.06 at 21h 31m 25s.xml">
+      <configuration name="SwitchSteuernTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 09m 32s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="SwitchSteuernTests - 2017.10.06 at 21h 31m 42s.xml">
+      <configuration name="SwitchSteuernTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 10m 04s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="SwitchSteuernTests_Test - 2017.10.06 at 21h 29m 50s.xml">
+      <configuration name="SwitchSteuernTests.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DemoTests_printBoxTest - 2017.10.04 at 19h 10m 15s.xml">
-      <configuration name="DemoTests.printBoxTest" configurationId="JUnit" />
+    <history-entry file="TemperatureTests - 2017.10.06 at 21h 36m 27s.xml">
+      <configuration name="TemperatureTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21412000" />
+    <option name="totallyTimeSpent" value="23083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -844,7 +884,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -861,15 +900,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01/Backofen.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/HeizelementTyp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/Backofen.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/demo/Point.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/Backofen.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/HeizelementTyp.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml" />
@@ -915,13 +949,6 @@
             <element signature="imports" expanded="false" />
             <element signature="docComment;class#TemperatureTests#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1097,14 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuerBerechner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/IPerson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1150,8 +1169,8 @@
         <state relative-caret-position="221">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#253#277#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#253#277#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1167,22 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/IPerson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1191,7 +1194,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -1207,18 +1210,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxCalculator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="248" column="23" lean-forward="false" selection-start-line="248" selection-start-column="23" selection-end-line="248" selection-end-column="23" />
+          <folding>
+            <element signature="e#8681#8682#0" expanded="true" />
+            <element signature="e#8741#8742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/demo/DemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/DemoAppIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuerBerechner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuernTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="73" lean-forward="true" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1233,9 +1291,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/DeTaxCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithmTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
