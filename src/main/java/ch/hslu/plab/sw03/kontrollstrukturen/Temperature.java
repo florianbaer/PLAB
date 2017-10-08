@@ -44,6 +44,10 @@ public class Temperature {
         this.temperatureInKelvin = temperatureInKelvin;
     }
 
+    public GaseousState getGaseousState(IGaseousElementState element){
+        return new GaseousEvaluator(element).getCurrentGaseousState(this.getTemperatureInKelvin());
+    }
+
     public float getTemperatureInCelsius() {
         return (this.temperatureInKelvin - KELVIN_TO_CELSIUS_OFFSET);
     }

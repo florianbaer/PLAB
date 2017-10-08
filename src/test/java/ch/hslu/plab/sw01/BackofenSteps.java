@@ -1,6 +1,5 @@
 package ch.hslu.plab.sw01;
 
-import ch.hslu.plab.sw01.*;
 import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
