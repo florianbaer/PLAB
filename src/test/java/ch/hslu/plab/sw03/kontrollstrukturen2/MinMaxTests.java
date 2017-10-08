@@ -1,6 +1,5 @@
-package ch.hslu.plab.sw03.kontrollstrukturen;
+package ch.hslu.plab.sw03.kontrollstrukturen2;
 
-import ch.hslu.plab.sw03.kontrollstrukturen.MinMax;
 import org.junit.Assert;
 import org.junit.Test;
 

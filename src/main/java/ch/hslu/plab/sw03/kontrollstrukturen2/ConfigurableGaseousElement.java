@@ -1,4 +1,4 @@
-package ch.hslu.plab.sw03.kontrollstrukturen;
+package ch.hslu.plab.sw03.kontrollstrukturen2;
 
 public class ConfigurableGaseousElement implements IGaseousElementState {
 

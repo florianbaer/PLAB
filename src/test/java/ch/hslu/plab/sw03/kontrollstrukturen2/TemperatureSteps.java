@@ -1,4 +1,4 @@
-package ch.hslu.plab.sw03.kontrollstrukturen;
+package ch.hslu.plab.sw03.kontrollstrukturen2;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Given;
@@ -25,7 +25,7 @@ public class TemperatureSteps{
 
     private ConfigurableGaseousElement element;
     private Temperature temperature;
-    
+
     @Given("^A temperature of \"([^\"]*)\" Kelvin$")
     public void a_temperature_of_Kelvin(float temperature) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
