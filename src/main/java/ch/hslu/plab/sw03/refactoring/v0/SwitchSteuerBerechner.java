@@ -10,6 +10,8 @@ public class SwitchSteuerBerechner {
                 return person.getLohn() * 10;
             case "DE":
                 return person.getLohn() * 50;
+            case "UE":
+                return person.getLohn() * 510;
             default:
                 throw new UnsupportedOperationException(String.format("calculateTax is not implemented for Person with locale '%s'", person.getCountry()));
         }
