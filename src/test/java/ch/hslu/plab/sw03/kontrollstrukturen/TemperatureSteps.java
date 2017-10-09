@@ -1,4 +1,4 @@
-package ch.hslu.plab.sw03.kontrollstrukturen2;
+package ch.hslu.plab.sw03.kontrollstrukturen;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.java.en.Given;
@@ -43,6 +43,4 @@ public class TemperatureSteps{
         // Write code here that turns the phrase above into concrete actions
         assertEquals(state, this.temperature.getGaseousState(this.element).name());
     }
-
-
 }

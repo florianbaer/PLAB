@@ -1,4 +1,4 @@
-package ch.hslu.plab.sw03.kontrollstrukturen2;
+package ch.hslu.plab.sw03.kontrollstrukturen;
 
 public class GaseousEvaluator {
 
