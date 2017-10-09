@@ -17,6 +17,6 @@ public class TaxCalculatorProvider implements ITaxCalculatorProvider {
         if(this.calculators.containsKey(countryCode)){
             return this.calculators.get(countryCode);
         }
-        throw new NoSuchElementException(String.format("No calculator for country code '%s' available"));
+        throw new NoSuchElementException(String.format("No calculator for country code '%s' available", countryCode));
     }
 }

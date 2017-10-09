@@ -5,6 +5,6 @@ public class UsTaxAlgorithm implements ITaxAlgorithm {
 
     @Override
     public double getTaxAlgorithm(double salary) {
-        return 100 * salary;
+        return 0.200 * salary;
     }
 }

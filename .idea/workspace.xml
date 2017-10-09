@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d249164b-7bae-43de-a611-0e16b44754a5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChPersonTaxCalculationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/UsPersonTaxCalculationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculationSwissPersonTests.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v2/ChTaxAlgorithmTests.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen2/ConfigurableGaseousElement.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/ConfigurableGaseousElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen2/GaseousEvaluator.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/GaseousEvaluator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen2/GaseousState.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/GaseousState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen2/IGaseousElementState.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/IGaseousElementState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen2/MinMax.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/MinMax.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen2/Temperature.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/Temperature.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen2/TemperatureEvaluator.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureEvaluator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen2/MinMaxTests.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/MinMaxTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen2/TemperatureElementTests.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureElementTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen2/TemperatureSteps.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureSteps.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03.kontrollstrukturen/Temperature.feature" afterPath="$PROJECT_DIR$/src/test/resources/kontrollstrukturen/Temperature.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxAlgorithm.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxAlgorithm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculatorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculatorProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,107 +25,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TemperatureElementTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureElementTests.java">
+      <file leaf-file-name="ChTaxAlgorithmTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithmTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Backofen.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01/Backofen.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="37" />
+            <state relative-caret-position="561">
+              <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackofenSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java">
+      <file leaf-file-name="ChPersonTaxCalculationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChPersonTaxCalculationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1507528661376" expanded="true" signature="404:436" ph="{...}" />
-                <marker date="1507528661376" expanded="true" signature="522:668" ph="{...}" />
-                <marker date="1507528661376" expanded="true" signature="770:817" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemperatureTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java">
+      <file leaf-file-name="UsPersonTaxCalculationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/UsPersonTaxCalculationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxCalculationSwissPersonTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculationSwissPersonTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxCalcExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalcExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+              <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
               <folding>
-                <element signature="docComment;class#TemperatureTests#0" expanded="false" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TemperatureSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureSteps.java">
+      <file leaf-file-name="TaxCalculatorProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Temperature.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/kontrollstrukturen/Temperature.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="238">
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/Temperature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-              <folding>
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#2806#2807#0" expanded="true" />
-                <element signature="e#2887#2888#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GaseousEvaluator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/GaseousEvaluator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurableGaseousElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/ConfigurableGaseousElement.java">
+      <file leaf-file-name="DeTaxCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/DeTaxCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChTaxCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ChTaxCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsTaxCalculator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/UsTaxCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,13 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/baerdev/Backofen/BackofenSteps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/com/baerdev/backofen/BackofenSteps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java" />
-        <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/MinMax.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/MinMaxTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/TemperatureEvaluator.java" />
@@ -190,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/IPerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/CHTaxCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalcExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalculatorProvider.java" />
@@ -212,6 +204,14 @@
         <option value="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03/kontrollstrukturen/Temperature.feature" />
         <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen2/TemperatureSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChPersonTaxCalculationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/UsPersonTaxCalculationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculatorProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalcExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculationSwissPersonTests.java" />
       </list>
     </option>
   </component>
@@ -261,7 +261,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,6 +280,81 @@
               <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
               <item name="PLAB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="v0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -323,7 +400,43 @@
               <item name="hslu" type="462c0819:PsiDirectoryNode" />
               <item name="plab" type="462c0819:PsiDirectoryNode" />
               <item name="sw03" type="462c0819:PsiDirectoryNode" />
-              <item name="kontrollstrukturen" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="v0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
@@ -344,8 +457,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,8 +466,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ch.hslu.plab.sw03.refactoring.v1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03/kontrollstrukturen" />
+      <recent name="$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01" />
+      <recent name="D:\Source\Repos\HSLU\PLAB_Code\PLAB-MyCode\src\test\resources\com\baerdev\backofen" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ch.hslu.plab.sw03.refactoring.v0" />
@@ -377,10 +490,8 @@
       <recent name="ch.hslu.plab.sw03.refactoring.v1" />
       <recent name="ch.hslu.plab.sw03" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03/kontrollstrukturen" />
-      <recent name="$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01" />
-      <recent name="D:\Source\Repos\HSLU\PLAB_Code\PLAB-MyCode\src\test\resources\com\baerdev\backofen" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.hslu.plab.sw03.refactoring.v1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,39 +506,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Temperature (3)">
-    <configuration name="All Features in: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest">
+    <configuration name="ChPersonTaxCalculationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test" />
-      <option name="GLUE" value="ch.hslu.plab.sw01 ch.hslu.plab.sw03.kontrollstrukturen2" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="All Features in: test" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PLAB-FB" />
-      <envs />
-    </configuration>
-    <configuration name="All in PLAB-FB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="PLAB-FB" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v1" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v1.ChPersonTaxCalculationTests" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -460,52 +553,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="PLAB-MyCode" />
-      <envs />
-    </configuration>
-    <configuration name="Feature: Temperature (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03.kontrollstrukturen/Temperature.feature" />
-      <option name="GLUE" value="ch.hslu.plab.sw03.kontrollstrukturen2" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: Temperature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PLAB-FB" />
-      <envs />
-    </configuration>
-    <configuration name="Feature: Temperature (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/kontrollstrukturen2/Temperature.feature" />
-      <option name="GLUE" value="ch.hslu.plab.sw03.kontrollstrukturen2" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: Temperature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PLAB-FB" />
       <envs />
     </configuration>
     <configuration name="Feature: Temperature (3)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -553,6 +600,81 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="PLAB-FB" />
       <envs />
+    </configuration>
+    <configuration name="TaxCalculationSwissPersonTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PLAB-FB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v2" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v2.TaxCalculationSwissPersonTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PLAB-FB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v2" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v2.TaxCalculationSwissPersonTests" />
+      <option name="METHOD_NAME" value="SwissPersonPaysTaxesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UsPersonTaxCalculationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.plab.sw03.refactoring.v1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PLAB-FB" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ch.hslu.plab.sw03.refactoring.v1" />
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.plab.sw03.refactoring.v1.UsPersonTaxCalculationTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -650,19 +772,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Backofen" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in PLAB-FB" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: test" />
-      <item index="5" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (2)" />
-      <item index="6" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (3)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChPersonTaxCalculationTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UsPersonTaxCalculationTests" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TaxCalculationSwissPersonTests" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (3)" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in PLAB-FB" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.All Features in: test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TaxCalculationSwissPersonTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UsPersonTaxCalculationTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ChPersonTaxCalculationTests" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: Temperature (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -695,44 +817,45 @@
       <workItem from="1507301643467" duration="9310000" />
       <workItem from="1507357524537" duration="1783000" />
       <workItem from="1507485292943" duration="3253000" />
-      <workItem from="1507528676730" duration="2653000" />
+      <workItem from="1507528676730" duration="4942000" />
+      <workItem from="1507542494737" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_Features_in__test - 2017.10.09 at 07h 58m 20s.xml">
-      <configuration name="All Features in: test" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TaxCalculationSwissPersonTests - 2017.10.09 at 11h 28m 00s.xml">
+      <configuration name="TaxCalculationSwissPersonTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_PLAB-FB - 2017.10.09 at 07h 58m 36s.xml">
-      <configuration name="All in PLAB-FB" configurationId="JUnit" />
+    <history-entry file="TaxCalculationSwissPersonTests - 2017.10.09 at 11h 28m 44s.xml">
+      <configuration name="TaxCalculationSwissPersonTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_PLAB-FB - 2017.10.09 at 08h 10m 48s.xml">
-      <configuration name="All in PLAB-FB" configurationId="JUnit" />
+    <history-entry file="TaxCalculationSwissPersonTests - 2017.10.09 at 11h 30m 23s.xml">
+      <configuration name="TaxCalculationSwissPersonTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Temperature - 2017.10.08 at 20h 46m 15s.xml">
-      <configuration name="Feature: Temperature" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TaxCalculationSwissPersonTests - 2017.10.09 at 11h 45m 19s.xml">
+      <configuration name="TaxCalculationSwissPersonTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Temperature - 2017.10.08 at 20h 48m 03s.xml">
-      <configuration name="Feature: Temperature" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TaxCalculationSwissPersonTests_SwissPersonPaysTaxesTest - 2017.10.09 at 11h 43m 02s.xml">
+      <configuration name="TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Temperature_(1) - 2017.10.08 at 20h 49m 03s.xml">
-      <configuration name="Feature: Temperature (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TaxCalculationSwissPersonTests_SwissPersonPaysTaxesTest - 2017.10.09 at 11h 44m 08s.xml">
+      <configuration name="TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Temperature_(1) - 2017.10.09 at 08h 11m 03s.xml">
-      <configuration name="Feature: Temperature (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TaxCalculationSwissPersonTests_SwissPersonPaysTaxesTest - 2017.10.09 at 11h 44m 24s.xml">
+      <configuration name="TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Temperature_(1) - 2017.10.09 at 08h 11m 41s.xml">
-      <configuration name="Feature: Temperature (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TaxCalculationSwissPersonTests_SwissPersonPaysTaxesTest - 2017.10.09 at 11h 45m 08s.xml">
+      <configuration name="TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Temperature_(2) - 2017.10.09 at 08h 12m 24s.xml">
-      <configuration name="Feature: Temperature (2)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="TaxCalculationSwissPersonTests_SwissPersonPaysTaxesTest - 2017.10.09 at 11h 45m 44s.xml">
+      <configuration name="TaxCalculationSwissPersonTests.SwissPersonPaysTaxesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Feature__Temperature_(3) - 2017.10.09 at 08h 12m 59s.xml">
-      <configuration name="Feature: Temperature (3)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="UsPersonTaxCalculationTests - 2017.10.09 at 11h 22m 01s.xml">
+      <configuration name="UsPersonTaxCalculationTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30772000" />
+    <option name="totallyTimeSpent" value="33088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -740,14 +863,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -763,6 +885,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -773,6 +896,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="work on unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="work on unit tests" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
@@ -780,16 +907,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw01/HeizelementTyp.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Collections.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/demo/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="122" column="15" lean-forward="false" selection-start-line="122" selection-start-column="15" selection-end-line="122" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,24 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#229#238#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/IPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -841,24 +946,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculatorProvider.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="202">
+          <caret line="248" column="23" lean-forward="false" selection-start-line="248" selection-start-column="23" selection-end-line="248" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/demo/DemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/UsTaxCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/DemoAppIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/MinMaxTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1767">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/IGaseousElementState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/GaseousState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/ConfigurableGaseousElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/GaseousEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureElementTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01/Backofen.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03/kontrollstrukturen2/Temperature.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/kontrollstrukturen/Temperature.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuerBerechner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuernTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -883,160 +1132,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/UsTaxAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="248" column="23" lean-forward="false" selection-start-line="248" selection-start-column="23" selection-end-line="248" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/demo/DemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="102">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/DemoAppIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuerBerechner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v0/SwitchSteuernTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="11" column="73" lean-forward="false" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/DeTaxAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ChTaxCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/DeTaxCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v2/ChTaxAlgorithmTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculatorProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithmTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalcExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalcExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/MinMaxTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1767">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureEvaluator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/IPerson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/IGaseousElementState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/GaseousState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/ConfigurableGaseousElement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/DeTaxCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1044,81 +1172,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/GaseousEvaluator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ChTaxCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/kontrollstrukturen/Temperature.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/UsTaxCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="47" column="44" lean-forward="false" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding>
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#2806#2807#0" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureElementTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01/Backofen.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw02/TemperatureTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalcExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="68" lean-forward="false" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding>
-            <element signature="docComment;class#TemperatureTests#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03/kontrollstrukturen2/Temperature.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw01/BackofenSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/UsPersonTaxCalculationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1507528661376" expanded="true" signature="404:436" ph="{...}" />
-            <marker date="1507528661376" expanded="true" signature="522:668" ph="{...}" />
-            <marker date="1507528661376" expanded="true" signature="770:817" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/kontrollstrukturen/Temperature.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChTaxAlgorithmTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="561">
+          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/TemperatureSteps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/ChPersonTaxCalculationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculationSwissPersonTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

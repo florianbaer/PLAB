@@ -19,6 +19,6 @@ public class Person implements IPerson {
 
     @Override
     public String getCountryCode() {
-        return this.locale.getCountry();
+        return this.locale.getCountry().toUpperCase();
     }
 }
