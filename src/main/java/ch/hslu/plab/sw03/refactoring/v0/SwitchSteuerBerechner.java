@@ -2,6 +2,11 @@ package ch.hslu.plab.sw03.refactoring.v0;
 
 public class SwitchSteuerBerechner {
 
+    /**
+     * Calculates the tax for a given person.
+     * @param person the person to calculate the tax.
+     * @return the calculated tax value.
+     */
     public int calcualteTax(Person person){
         switch (person.getCountry()){
             case "US":
