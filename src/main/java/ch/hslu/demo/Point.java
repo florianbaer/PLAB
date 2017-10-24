@@ -20,7 +20,7 @@ package ch.hslu.demo;
  * Klasse ist Immutable implementiert.
  */
 @SuppressWarnings("PMD.ShortVariable")
-public final class Point {
+public class Point {
 
     /**
      * Punkt keinem Quadrant zugeordnet.
@@ -47,8 +47,8 @@ public final class Point {
      */
     private static final int QUADRANT_4 = 4;
 
-    private final int x;
-    private final int y;
+    protected int x;
+    protected int y;
 
     /**
      * Konstruktor für Punkt mit Koordinaten.
