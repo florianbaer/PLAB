@@ -10,7 +10,7 @@ import org.junit.Test;
 public class SubtypingTests {
 
     @Test
-    public void CastSubtypeToBaseTest(){
+    public void CastSubtypeToBaseShapeTest(){
         // Implizites CASTING
         Shape rectangle = new Rectangle(5, 5, 10,10);
         Shape circle = new Circle(5, 15, 5);
@@ -30,5 +30,11 @@ public class SubtypingTests {
         Assert.assertEquals(5, ((Circle) circle).getDiameter());
 
         //DAS IST NICHT POLYMORPHIE - DAS IST MAGIE!!!!
+    }
+
+    @Test
+    public void CreateInstanceOfElementTest(){
+        Element mercury = new Mercury();
+        mercury.toString();
     }
 }
