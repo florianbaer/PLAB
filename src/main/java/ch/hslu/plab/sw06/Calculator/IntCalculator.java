@@ -38,7 +38,7 @@ public class IntCalculator  implements IntegerCalculator{
     @Override
     public int add(int firstNumber, int secondNumber) {
         logger.info("Calculator calculates result from summand {} and summand {}", firstNumber, secondNumber);
-        int result = firstNumber + secondNumber;
+        int result = Math.addExact(firstNumber,secondNumber);
         if(negativLogging && result < 0){
             logger.warn("Result is negativ. '{}' is below zero", result);
         }

@@ -46,8 +46,7 @@ public class Point extends ch.hslu.demo.Point{
      * @param relativeMovement the point which defines the relative offset to do
      */
     public void moveRelative(final Point relativeMovement){
-        this.x += relativeMovement.x;
-        this.y += relativeMovement.y;
+        moveRelative(relativeMovement.getX(),relativeMovement.getY());
     }
 
     /**
@@ -56,7 +55,7 @@ public class Point extends ch.hslu.demo.Point{
      * @param length the lengh of the movement
      */
     public void moveByVector(double angle, int length){
-        this.x += Math.cos(angle) * length;
-        this.y += Math.sin(angle) * length;
+        this.x += Math.round(Math.cos(angle) * length);
+        this.y += Math.round(Math.sin(angle) * length);
     }
 }
