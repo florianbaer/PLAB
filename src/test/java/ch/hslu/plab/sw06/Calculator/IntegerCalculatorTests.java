@@ -67,33 +67,26 @@ public class IntegerCalculatorTests {
         Assert.assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(expected = ArithmeticException.class)
     public void addWithOverflowGiven() {
         // Arrange
         IntegerCalculator calc = new IntCalculator();
-        int expected = Integer.MIN_VALUE;
         int firstNumber = Integer.MAX_VALUE;
         int secondNumber = 1;
 
         // Act
-        int actual = calc.add(firstNumber, secondNumber);
+        calc.add(firstNumber, secondNumber);
 
-        // Arrange
-        Assert.assertEquals(expected, actual);
     }
 
-    @Test
+    @Test(expected = ArithmeticException.class)
     public void addWithUnderflowGiven() {
         // Arrange
         IntegerCalculator calc = new IntCalculator();
-        int expected = Integer.MAX_VALUE;
         int firstNumber = Integer.MIN_VALUE;
         int secondNumber = -1;
 
         // Act
-        int actual = calc.add(firstNumber, secondNumber);
-
-        // Arrange
-        Assert.assertEquals(expected, actual);
+        calc.add(firstNumber, secondNumber);
     }
 }
