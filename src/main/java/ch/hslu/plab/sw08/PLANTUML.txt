@@ -1,0 +1,14 @@
+@startuml
+
+
+class Temperaturverlauf {
+  - temperaturen: List<Temperatur>
+  ____
+  + getTemperaturen() : List<Temperatur>
+  + setTemperaturen(temperaturen: List<Temperatur>) : void
+  + add(temperatur: Temperatur) : void
+  + clear() : void
+  + getCount() : int
+}
+
+@enduml

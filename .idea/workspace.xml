@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d249164b-7bae-43de-a611-0e16b44754a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/IntCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/Interfaces/IntegerCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/Calculator/IntegerCalculatorTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/MinMaxTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/PLANTUML.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/TemperatureComperator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/Temperaturverlauf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Mercury.java" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Mercury.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/SubtypingTests.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/SubtypingTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +17,12 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="PLAB-MyCode" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -37,32 +39,12 @@
       <file leaf-file-name="MinMaxTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/MinMaxTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="85">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#419#420#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/PointTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinMaxTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/MinMaxTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,53 +64,84 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding />
+              <folding>
+                <marker date="1510154910939" expanded="true" signature="2244:2252" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntCalculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/IntCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="340">
               <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java">
+      <file leaf-file-name="Temperaturverlauf.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/Temperaturverlauf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="147" column="5" lean-forward="false" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="386">
+              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoAppIT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/DemoAppIT.java">
+      <file leaf-file-name="TemperatureComperator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/TemperatureComperator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubtypingTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/SubtypingTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="238">
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uml.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/uml.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PLANTUML.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/PLANTUML.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,8 +153,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -164,9 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/TaxCalculatorProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v1/ITaxCalculatorProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v3/UsTaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/UsTaxCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/SwitchSteuernTests.java" />
@@ -215,6 +225,9 @@
         <option value="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/Calculator/IntegerCalculatorTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/Interfaces/IntegerCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/IntCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/PLANTUML.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/TemperatureComperator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/Temperaturverlauf.java" />
       </list>
     </option>
   </component>
@@ -297,9 +310,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,6 +369,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hslu" type="462c0819:PsiDirectoryNode" />
               <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw03" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
+              <item name="sw05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PLAB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hslu" type="462c0819:PsiDirectoryNode" />
+              <item name="plab" type="462c0819:PsiDirectoryNode" />
               <item name="sw06" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,9 +420,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hslu" type="462c0819:PsiDirectoryNode" />
               <item name="plab" type="462c0819:PsiDirectoryNode" />
-              <item name="sw06" type="462c0819:PsiDirectoryNode" />
-              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="sw08" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PLAB" type="b2602c69:ProjectViewProjectNode" />
@@ -452,14 +494,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="/usr/lib/jvm/java-1.9.0-openjdk-amd64" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -467,6 +508,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ch.hslu.plab.sw03.refactoring.v1" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ch.hslu.plab.sw06.Calculator" />
       <recent name="ch.hslu.plab.sw06.Calculator.Interfaces" />
@@ -483,12 +527,6 @@
       <recent name="" />
       <recent name="ch.hslu.plab.sw03.refactoring.v0" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Source\Repos\HSLU\PLAB\src\main\java\ch\hslu\plab" />
-      <recent name="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03/kontrollstrukturen" />
-      <recent name="$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01" />
-      <recent name="D:\Source\Repos\HSLU\PLAB_Code\PLAB-MyCode\src\test\resources\com\baerdev\backofen" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03.kontrollstrukturen" />
       <recent name="$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01" />
@@ -501,8 +539,12 @@
       <recent name="ch.hslu.plab.sw03.refactoring.v1" />
       <recent name="ch.hslu.plab.sw03" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ch.hslu.plab.sw03.refactoring.v1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Source\Repos\HSLU\PLAB\src\main\java\ch\hslu\plab\sw08" />
+      <recent name="D:\Source\Repos\HSLU\PLAB\src\main\java\ch\hslu\plab" />
+      <recent name="$PROJECT_DIR$/src/test/resources/ch.hslu.plab.sw03/kontrollstrukturen" />
+      <recent name="$PROJECT_DIR$/src/test/resources/ch/hslu/plab/sw01" />
+      <recent name="D:\Source\Repos\HSLU\PLAB_Code\PLAB-MyCode\src\test\resources\com\baerdev\backofen" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -834,7 +876,12 @@
       <workItem from="1508524109147" duration="370000" />
       <workItem from="1508756021986" duration="1500000" />
       <workItem from="1508872738508" duration="3566000" />
-      <workItem from="1509101243583" duration="5134000" />
+      <workItem from="1509101243583" duration="5247000" />
+      <workItem from="1509274811760" duration="614000" />
+      <workItem from="1509954942476" duration="601000" />
+      <workItem from="1510154173150" duration="255000" />
+      <workItem from="1510154836723" duration="42000" />
+      <workItem from="1510154894553" duration="1287000" />
     </task>
     <servers />
   </component>
@@ -871,7 +918,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48349000" />
+    <option name="totallyTimeSpent" value="51261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -879,31 +926,31 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22410148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22410148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16614583" sideWeight="0.49369085" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50630915" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50630915" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -952,41 +999,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/refactoring/v1/UsPersonTaxCalculationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/ITaxCalculatorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v2/TaxCalculatorProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/stream/StreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw03/refactoring/v0/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1047,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,10 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="152" column="25" lean-forward="false" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
-          <folding>
-            <element signature="e#5875#5876#0" expanded="false" />
-            <element signature="e#5956#5957#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1095,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,7 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,7 +1124,6 @@
         <state relative-caret-position="0">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1903#0" expanded="true" />
             <element signature="e#977#978#0" expanded="false" />
             <element signature="e#1003#1004#0" expanded="false" />
           </folding>
@@ -1131,16 +1134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#269#270#0" expanded="false" />
-            <element signature="e#314#315#0" expanded="false" />
-            <element signature="e#354#355#0" expanded="false" />
-            <element signature="e#401#402#0" expanded="false" />
-            <element signature="e#469#470#0" expanded="false" />
-            <element signature="e#511#512#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,16 +1141,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#301#302#0" expanded="false" />
-            <element signature="e#334#335#0" expanded="false" />
-            <element signature="e#383#384#0" expanded="false" />
-            <element signature="e#427#428#0" expanded="false" />
-            <element signature="e#474#475#0" expanded="false" />
-            <element signature="e#530#531#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#628#629#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,16 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#451#452#0" expanded="false" />
-            <element signature="e#484#485#0" expanded="false" />
-            <element signature="e#514#515#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-            <element signature="e#595#596#0" expanded="false" />
-            <element signature="e#654#655#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1182,12 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#339#340#0" expanded="false" />
-            <element signature="e#363#364#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#412#413#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,26 +1162,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baerdev/opencv/OpenCvDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="89" lean-forward="false" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/baerdev/opencv/OpenCvDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -1227,7 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1235,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,7 +1209,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,30 +1229,16 @@
         <state relative-caret-position="119">
           <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="8" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/Calculator/Interfaces/IntegerCalculatorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="63" lean-forward="true" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/Interfaces/IntCalculaor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/Calculator/Interfaces/IntegerCalculatorTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/Interfaces/IntCalculaor.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/SubtypingTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
+        <state relative-caret-position="527">
           <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1317,7 +1256,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/demo/PointTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
+        <state relative-caret-position="1717">
           <caret line="147" column="5" lean-forward="false" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
           <folding />
         </state>
@@ -1325,7 +1264,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw03/kontrollstrukturen/MinMaxTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
+        <state relative-caret-position="68">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
@@ -1333,16 +1272,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/PointTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+        <state relative-caret-position="2108">
+          <caret line="125" column="14" lean-forward="false" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw06/MinMaxTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="56" />
+        <state relative-caret-position="85">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="56" />
           <folding>
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#419#420#0" expanded="true" />
@@ -1370,18 +1309,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding />
+          <folding>
+            <marker date="1510154910939" expanded="true" signature="2244:2252" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw06/Calculator/IntCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="340">
           <caret line="22" column="75" lean-forward="false" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw02/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/PLANTUML.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/uml.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/TemperatureComperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/plab/sw08/Temperaturverlauf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
           </folding>
         </state>
       </provider>
