@@ -2,23 +2,20 @@ package ch.hslu.plab.sw08;
 
 import ch.hslu.plab.sw03.kontrollstrukturen.Temperature;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
-public class Temperaturverlauf {
-    private List<Temperature> temperaturen;
+public class SetTemperaturverlauf {
+    private Set<Temperature> temperaturen;
 
-    public Temperaturverlauf(){
-        this.temperaturen = new ArrayList<>();
+    public SetTemperaturverlauf(){
+        this.temperaturen = new LinkedHashSet<Temperature>();
     }
 
-    public List<Temperature> getTemperaturen() {
+    public Set<Temperature> getTemperaturen() {
         return temperaturen;
     }
 
-    public void setTemperaturen(List<Temperature> temperaturen) {
+    public void setTemperaturen(Set<Temperature> temperaturen) {
         this.temperaturen = temperaturen;
     }
 
@@ -27,7 +24,7 @@ public class Temperaturverlauf {
     }
 
     public void clear(){
-        this.temperaturen = new ArrayList<Temperature>();
+        this.temperaturen = new LinkedHashSet<Temperature>();
     }
 
     public int getCount(){
