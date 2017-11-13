@@ -3,7 +3,7 @@ package ch.hslu.plab.sw02;
 /**
  * Represents a temperature
  *
- * @author Claudio Huebscher, Jan Bucher
+ * @author Yannick Bättig, Florian Bär
  */
 public class Temperature {
     private static final float DEFAULT_TEMPERATURE_CELSIUS = 20f;

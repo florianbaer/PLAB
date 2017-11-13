@@ -9,16 +9,16 @@ public abstract class Shape implements GeometricalObject {
         this.y = y;
     }
 
-    public void move(int newX, int newY) {
+    public final void move(int newX, int newY) {
         this.x = newX;
         this.y = newY;
     }
 
-    public int getX() {
+    public final int getX() {
         return x;
     }
 
-    public int getY() {
+    public final int getY() {
         return y;
     }
 
