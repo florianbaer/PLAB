@@ -2,16 +2,16 @@ package ch.hslu.plab.sw08;
 
 import java.util.Objects;
 
-public final class Temperature extends ch.hslu.plab.sw02.Temperature implements Comparable<Temperature> {
+public class Temperature extends ch.hslu.plab.sw02.Temperature implements Comparable<Temperature> {
     @Override
-    public int compareTo(Temperature o) {
+    public int compareTo(Temperature temperature) {
+        if(temperature == null){
+            throw new NullPointerException("Temperature is null");
+        }
+
         return 0;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(this.getTemperatureInKelvin());
-    }
 
     @Override
     public boolean equals(Object obj) {
@@ -22,7 +22,7 @@ public final class Temperature extends ch.hslu.plab.sw02.Temperature implements 
         if (obj == null)
             return false;
         // type check and cast
-        if (getClass() != obj.getClass())
+        if (!(obj instanceof Temperature))
             return false;
         Temperature temperature = (Temperature) obj;
         // field comparison

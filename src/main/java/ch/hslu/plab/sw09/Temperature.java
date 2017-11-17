@@ -1,4 +1,4 @@
-package ch.hslu.plab.sw02;
+package ch.hslu.plab.sw09;
 
 import java.util.Objects;
 
@@ -21,7 +21,7 @@ public class Temperature {
      * (the default temperature is set to 0K)
      * Consider using the constructor {@link #Temperature(float)}
      */
-    public Temperature() {
+    private Temperature() {
         // set temperature to default value
         setTemperatureInCelsius(DEFAULT_TEMPERATURE_CELSIUS);
     }
@@ -30,7 +30,7 @@ public class Temperature {
      * Initialize new temperature with a given value
      * @param temperatureInKelvin
      */
-    public Temperature(float temperatureInKelvin) {
+    private Temperature(float temperatureInKelvin) {
         setTemperatureInKelvin(temperatureInKelvin);
     }
 
@@ -82,4 +82,15 @@ public class Temperature {
         setTemperatureInCelsius(getTemperatureInCelsius() + addingNumber);
     }
 
+    public static Temperature GetTemperatureInCelsius(float tempInCel){
+        Temperature cel =  new Temperature();
+        cel.setTemperatureInCelsius(tempInCel);
+        return cel;
+    }
+
+    public static Temperature GetTemperatureInKelvin(float tempInKel){
+        Temperature cel =  new Temperature();
+        cel.setTemperatureInKelvin(tempInKel);
+        return cel;
+    }
 }

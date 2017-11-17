@@ -1,4 +1,4 @@
-package ch.hslu.plab.sw02;
+package ch.hslu.plab.sw09;
 
 import java.util.Objects;
 
@@ -7,7 +7,7 @@ import java.util.Objects;
  *
  * @author Yannick Bättig, Florian Bär
  */
-public class Temperature {
+public class TemperatureConstructors {
     private static final float DEFAULT_TEMPERATURE_CELSIUS = 20f;
     private static final float KELVIN_TO_CELSIUS_OFFSET = 273.15f;
     private static final float KELVIN_TO_FAHRENHEIT_FACTOR = 9f/5f;
@@ -19,26 +19,30 @@ public class Temperature {
     /**
      * Initialize an temperature without setting the temperature
      * (the default temperature is set to 0K)
-     * Consider using the constructor {@link #Temperature(float)}
+     * Consider using the constructor {@link #TemperatureConstructors(float, TemperatureType)}
      */
-    public Temperature() {
+    public TemperatureConstructors() {
         // set temperature to default value
         setTemperatureInCelsius(DEFAULT_TEMPERATURE_CELSIUS);
     }
 
     /**
      * Initialize new temperature with a given value
-     * @param temperatureInKelvin
+     * @param temperature
      */
-    public Temperature(float temperatureInKelvin) {
-        setTemperatureInKelvin(temperatureInKelvin);
+    public TemperatureConstructors(float temperature, TemperatureType type) {
+        if(type == TemperatureType.CELSIUS){
+            setTemperatureInCelsius(temperature);
+        } else {
+            setTemperatureInKelvin(temperature);
+        }
     }
 
     public float getTemperatureInKelvin() {
         return this.temperatureInKelvin;
     }
 
-    public void setTemperatureInKelvin(float temperatureInKelvin) {
+    private void setTemperatureInKelvin(float temperatureInKelvin) {
         if (temperatureInKelvin < 0) {
             throw new IllegalArgumentException("Temperature in Kelvin cannot be lower than 0");
         }
@@ -54,16 +58,12 @@ public class Temperature {
         return (this.temperatureInKelvin - KELVIN_TO_CELSIUS_OFFSET);
     }
 
-    public void setTemperatureInCelsius(float temperatureInCelsius) {
+    private void setTemperatureInCelsius(float temperatureInCelsius) {
         this.temperatureInKelvin = (temperatureInCelsius + KELVIN_TO_CELSIUS_OFFSET);
     }
 
     public float getTemperatureInFahrenheit() {
         return (this.temperatureInKelvin * KELVIN_TO_FAHRENHEIT_FACTOR - KELVIN_TO_FAHRENHEIT_OFFSET);
-    }
-
-    public void setTemperatureInFahrenheit(float temperatureInFahrenheit) {
-        this.temperatureInKelvin = ((temperatureInFahrenheit + KELVIN_TO_FAHRENHEIT_OFFSET) * FAHRENHEIT_TO_KELVIN_FACTOR);
     }
 
     /**
