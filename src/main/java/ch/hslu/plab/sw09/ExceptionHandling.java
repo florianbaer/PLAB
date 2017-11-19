@@ -1,25 +1,37 @@
 package ch.hslu.plab.sw09;
 
 import ch.hslu.plab.sw02.Temperature;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
 public class ExceptionHandling {
+
+
+    private static final Logger logger = LogManager.getLogger(ExceptionHandling.class);
     public static void main(String[] args) {
+        logger.debug("Exceptionhandling example is started");
         String input;
         Scanner scanner = new Scanner(System.in);
+        logger.debug("Scanner is instantiated");
         do {
-            System.out.println("Bitte Temperatur eingeben ('exit' zum Beenden): ");
+
+            logger.info("Bitte Temperatur eingeben ('exit' zum Beenden): ");
             input = scanner.next();
             try
             {
-                Temperature temperature = new Temperature( Float.valueOf(input) );
-                System.out.println(temperature.getTemperatureInKelvin());
+
+                float temperatureFloat = Float.valueOf(input);
+                logger.log(Level.DEBUG, "Casted input successfully to float");
+                Temperature temperature = new Temperature(temperatureFloat);
+                logger.info(temperature.getTemperatureInKelvin());
             }
             catch (NumberFormatException numberFormatException){
-                System.out.println(input + " ist keine Zahl. Bitte geben Sie eine gültige Zahl ein.");
+                logger.error(input + " ist keine Zahl. Bitte geben Sie eine gültige Zahl ein.", numberFormatException);
             }
         } while (!input.equals("exit"));
-        System.out.println("Programm beendet.");
+        logger.debug("Programm beendet.");
     }
 }

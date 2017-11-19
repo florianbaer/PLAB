@@ -7,6 +7,24 @@
       </Console>
    </Appenders>
 
+   <appender name="DefaultLogFile.file" class="org.apache.log4j.FileAppender">
+      <param name="file" value="C:\temp\Default.log" />
+      <param name="append" value="false" />
+      <param name="threshold" value="debug" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d{ISO8601} %-5p [%c{1}] - %m%n" />
+      </layout>
+   </appender>
+
+   <appender name="another.file" class="org.apache.log4j.FileAppender">
+      <param name="file" value="C:\temp\error.log" />
+      <param name="append" value="false" />
+      <param name="threshold" value="ERROR" />
+      <layout class="org.apache.log4j.PatternLayout">
+         <param name="ConversionPattern" value="%d{ISO8601} %-5p [%c{1}] - %m%n" />
+      </layout>
+   </appender>
+
    <Loggers>
       <Root level="trace">
          <AppenderRef ref="Console" />
