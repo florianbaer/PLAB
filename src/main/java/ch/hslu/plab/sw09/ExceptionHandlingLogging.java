@@ -7,10 +7,10 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Scanner;
 
-public class ExceptionHandling {
+public class ExceptionHandlingLogging {
 
 
-    private static final Logger logger = LogManager.getLogger(ExceptionHandling.class);
+    private static final Logger logger = LogManager.getLogger(ExceptionHandlingLogging.class);
     public static void main(String[] args) {
         logger.debug("Exceptionhandling example is started");
         String input;

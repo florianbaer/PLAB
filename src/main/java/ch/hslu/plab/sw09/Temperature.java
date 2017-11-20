@@ -7,59 +7,99 @@ import java.util.Objects;
  *
  * @author Yannick Bättig, Florian Bär
  */
-public final class Temperature {
-    private static final float DEFAULT_TEMPERATURE_CELSIUS = 20f;
-    private static final float KELVIN_TO_CELSIUS_OFFSET = 273.15f;
-    private static final float KELVIN_TO_FAHRENHEIT_FACTOR = 9f/5f;
-    private static final float FAHRENHEIT_TO_KELVIN_FACTOR = 5f/9f;
-    private static final float KELVIN_TO_FAHRENHEIT_OFFSET = 459.67f;
+public final class Temperature implements Comparable<Temperature>{
+    private static final float MIN_CELSIUS = -273.15f;
+    private static final int MIN_KELVIN = 0;
+    private final static float KELVIN_OFFSET = 273.15f;
+    private final static float FAHREINHEIT_OFF_SET = 32;
+    private final static float FAHREINHEIT_FAKTOR = 1.8f;
 
-    private float temperatureInKelvin;
+    private final float celsius;
 
-    /**
-     * Initialize an temperature without setting the temperature
-     * (the default temperature is set to 0K)
-     * Consider using the constructor {@link #Temperature}
-     */
-    private Temperature() {
-        // set temperature to default value
-        setTemperatureInCelsius(DEFAULT_TEMPERATURE_CELSIUS);
+    private Temperature(float celsius){
+        this.celsius = celsius;
     }
 
+/*    public Temperatur(float temperatur, Unit unit) {
+        this.celsius = temperatur - unit.getOffset();
+    }
+*/
 
-    public float getTemperatureInKelvin() {
-        return this.temperatureInKelvin;
+    private Temperature(Temperature temperatur){
+        this.celsius = temperatur.getCelsius();
+    }
+
+    public static Temperature createFromCelsius (float celsius){
+        if (celsius < MIN_CELSIUS){
+            throw new IllegalArgumentException("ungültige Temperatur");
+        }
+        return new Temperature(celsius);
+    }
+
+    public static Temperature createFromKelvin (float kelvin){
+        if (kelvin < MIN_KELVIN){
+            throw new IllegalArgumentException("ungültige Temperatur");
+        }
+        return new Temperature(kelvinToCelsius(kelvin));
+    }
+
+    public static float celsiusToKelvin(float celsius){
+        return celsius + TemperatureUnit.KELVIN.getOffset();
+    }
+
+    public static float kelvinToCelsius(float kelvin){
+        return kelvin - TemperatureUnit.KELVIN.getOffset();
+    }
+
+    public static float celsiusToFahreinheit(float celsius){
+        return celsius * FAHREINHEIT_FAKTOR + FAHREINHEIT_OFF_SET;
+    }
+
+    public static float fahreinheitToCelsius(float fahreinheit){
+        return (fahreinheit - FAHREINHEIT_OFF_SET) * FAHREINHEIT_FAKTOR;
+    }
+
+/*
+    public void addTemperatur(float celsius){
+        this.celsius += celsius;
+    }
+*/
+
+    public float getKelvin() {
+        return celsius + TemperatureUnit.KELVIN.getOffset();
+    }
+
+    public float getCelsius() {
+        return this.celsius;
     }
 
 
     @Override
     public int hashCode() {
-        return Objects.hash(this.temperatureInKelvin);
+        return Objects.hash(celsius);
     }
 
-    public float getTemperatureInCelsius() {
-        return (this.temperatureInKelvin - KELVIN_TO_CELSIUS_OFFSET);
-    }
-
-    private void setTemperatureInCelsius(float temperatureInCelsius) {
-    }
-
-    public float getTemperatureInFahrenheit() {
-        return (this.temperatureInKelvin * KELVIN_TO_FAHRENHEIT_FACTOR - KELVIN_TO_FAHRENHEIT_OFFSET);
-    }
-
-    public static final Temperature GetTemperatureInCelsius(float tempInCel){
-        Temperature cel =  new Temperature();
-        cel.temperatureInKelvin = (tempInCel + KELVIN_TO_CELSIUS_OFFSET);
-        return cel;
-    }
-
-    public static final Temperature GetTemperatureInKelvin(float tempInKel){
-        Temperature cel =  new Temperature();
-        if (tempInKel < 0) {
-            throw new IllegalArgumentException("Temperature in Kelvin cannot be lower than 0");
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
         }
-        cel.temperatureInKelvin = tempInKel;
-        return cel;
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        final Temperature temperatur = (Temperature) obj;
+
+        return (0 == Float.compare(celsius,temperatur.celsius));
+    }
+
+    @Override
+    public int compareTo(Temperature o) {
+        return Float.compare(celsius, o.celsius);
+    }
+
+    @Override
+    public String toString() {
+        return "Celsius: " + celsius + "\n" +"Kelvin: " + getKelvin();
     }
 }
