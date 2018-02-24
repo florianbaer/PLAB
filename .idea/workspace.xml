@@ -777,7 +777,7 @@
       <workItem from="1513597218152" duration="168000" />
       <workItem from="1516616629597" duration="447000" />
       <workItem from="1519113230635" duration="3050000" />
-      <workItem from="1519457428401" duration="80000" />
+      <workItem from="1519457428401" duration="135000" />
     </task>
     <task id="LOCAL-00001" summary="write source for unit test">
       <created>1511186619177</created>
@@ -793,7 +793,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519457481026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Algorithmen und Datenstrukturen">
+      <created>1519457513500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519457513500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -829,7 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70583000" />
+    <option name="totallyTimeSpent" value="70638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
