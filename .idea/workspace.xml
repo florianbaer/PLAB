@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d249164b-7bae-43de-a611-0e16b44754a5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/ad/sw1/ggT/GGT.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ch/hslu/ad/sw1/ggT/makefile" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/DojoNov/BracketsTests.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/DojoNov/BracketsTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw09/TemperatureTests.java" afterPath="$PROJECT_DIR$/src/test/java/ch/hslu/plab/sw09/TemperatureTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +37,8 @@
       <file leaf-file-name="makefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/ad/sw1/ggT/makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="560">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -782,7 +777,7 @@
       <workItem from="1513597218152" duration="168000" />
       <workItem from="1516616629597" duration="447000" />
       <workItem from="1519113230635" duration="3050000" />
-      <workItem from="1519457428401" duration="24000" />
+      <workItem from="1519457428401" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="write source for unit test">
       <created>1511186619177</created>
@@ -791,7 +786,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511186619177</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Algorithmen und Datenstrukturen">
+      <created>1519457481025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519457481026</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -827,7 +829,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70527000" />
+    <option name="totallyTimeSpent" value="70583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -899,7 +901,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="work on unit tests" />
     <MESSAGE value="write source for unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="write source for unit test" />
+    <MESSAGE value="add Algorithmen und Datenstrukturen" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Algorithmen und Datenstrukturen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1258,8 +1261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/ad/sw1/ggT/makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="560">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
