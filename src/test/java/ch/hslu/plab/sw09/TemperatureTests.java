@@ -51,7 +51,7 @@ public class TemperatureTests {
     @Test
     public void testIllegalArgumentException() throws Exception {
         thrown.expect(IllegalArgumentException.class);
-        // thrown.expectMessage("ungültige Temperatur"); containsstring is not implemented..?
+        //thrown.expectMessage("ungültige Temperatur"); //containsstring is not implemented..?
         Temperature.createFromKelvin(-1);
     }
 
