@@ -37,8 +37,8 @@
       <file leaf-file-name="makefile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/ad/sw1/ggT/makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="680">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -777,7 +777,7 @@
       <workItem from="1513597218152" duration="168000" />
       <workItem from="1516616629597" duration="447000" />
       <workItem from="1519113230635" duration="3050000" />
-      <workItem from="1519457428401" duration="135000" />
+      <workItem from="1519457428401" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="write source for unit test">
       <created>1511186619177</created>
@@ -800,7 +800,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519457513500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Algorithmen und Datenstrukturen">
+      <created>1519457574731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519457574731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -836,7 +843,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70638000" />
+    <option name="totallyTimeSpent" value="70658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -1268,8 +1275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/hslu/ad/sw1/ggT/makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="680">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
       </provider>
